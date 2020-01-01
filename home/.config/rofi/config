@@ -1,0 +1,20 @@
+# rofi.theme: /usr/share/rofi/themes/sidetab.rasi
+
+rofi.modi: window,run,drun
+
+rofi.width: 80
+rofi.lines: 16
+rofi.padding: 80
+
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
+rofi.sidebar-mode: true
+
+# rofi.kb-mode-next: Control+Right
+# rofi.kb-mode-previous: Control+Left
+
+rofi.color-enabled: true
+rofi.color-window: #1e1e20, #dc7f41, #dc7f41
+rofi.color-normal: #1e1e20, #c5c8c6, #1e1e20, #1e1e20, #dc7f41 
+rofi.color-active: #1e1e20, #c5c8c6, #1e1e20, #1e1e20, #dc7f41
+rofi.color-urgent: #1e1e20, #c5c8c6, #1e1e20, #1e1e20, #dc7f41

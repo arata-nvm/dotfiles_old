@@ -4,13 +4,13 @@
     - [rm -f ~/.Xresources]
     - [rm -f ~/.i3/config]
     - [rm -rf ~/.config/i3blocks]
-    - [rm -rf ~/.config/fcitx/*]
+    - [rm -rf ~/.config/fcitx]
     - [rm -rf ~/.config/nitrogen]
-    - [rm -rf ~/.config/fusuma/*]
-    - [rm -rf ~/.config/mpv/*]
-    - [rm -rf ~/.config/termite/*]
-    - [rm -rf ~/.config/skippy-xd/*]
-    - [rm -rf ~/.config/rofi/*]
+    - [rm -rf ~/.config/fusuma]
+    - [rm -rf ~/.config/mpv]
+    - [rm -rf ~/.config/termite]
+    - [rm -rf ~/.config/skippy-xd]
+    - [rm -rf ~/.config/rofi]
 
 - link:
     ~/.xprofile: home/.xprofile
