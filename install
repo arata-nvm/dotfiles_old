@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -e
+
+BASE_CONFIG="config"
+CONFIG_SUFFIX=".yml"
+
+META_DIR="meta"
+CONFIG_DIR="configs"
+
+DOTBOT_DIR="dotbot"
+DOTBOT_BIN="bin/dotbot"
+
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cd "${BASEDIR}"
+git submodule update --init --recursive --remote
+
+"${BASEDIR}/${META_DIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${META_DIR}/${BASE_CONFIG}${CONFIG_SUFFIX}"
+
+for config in ${@}; do
+  configContent="$(<"${BASEDIR}/${META_DIR}/${BASE_CONFIG}${CONFIG_SUFFIX}")\n$(<"${BASEDIR}/${META_DIR}/${CONFIG_DIR}/${config}${CONFIG_SUFFIX}")"
+  "${BASEDIR}/${META_DIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c <(echo -e "$configContent")
+done

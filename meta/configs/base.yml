@@ -1,0 +1,30 @@
+- shell:
+    - [/bin/sh etc/init/base.sh]
+    - [rm -f ~/.xprofile]
+    - [rm -f ~/.Xresources]
+    - [rm -f ~/.i3/config]
+    - [rm -rf ~/.config/i3blocks]
+    - [rm -rf ~/.config/fcitx]
+    - [rm -rf ~/.config/nitrogen]
+    - [rm -rf ~/.config/fusuma]
+    - [rm -rf ~/.config/mpv]
+    - [rm -rf ~/.config/termite]
+    - [rm -rf ~/.config/skippy-xd]
+    - [rm -rf ~/.config/rofi]
+
+- link:
+    ~/.xprofile: home/.xprofile
+    ~/.Xresources: home/.Xresources
+    ~/.i3/config: home/.i3/config
+    ~/.config/i3blocks: home/.config/i3blocks
+    ~/.config/fcitx/config: home/.config/fcitx/config
+    ~/.config/fcitx/profile: home/.config/fcitx/profile
+    ~/.config/fcitx/addon: home/.config/fcitx/addon
+    ~/.config/fcitx/conf: home/.config/fcitx/conf
+    ~/.config/nitrogen: home/.config/nitrogen
+    ~/.config/fusuma/config.yml: home/.config/fusuma/config.yml
+    ~/.config/mpv: home/.config/mpv
+    ~/.config/termite/config: home/.config/termite/config
+    ~/.config/skippy-xd/skippy-xd.rc: home/.config/skippy-xd/skippy-xd.rc
+    ~/.config/rofi/config: home/.config/rofi/config
+

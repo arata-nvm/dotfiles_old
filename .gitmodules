@@ -1,0 +1,6 @@
+[submodule "meta/dotbot"]
+	path = meta/dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "home/.config/i3blocks/i3blocks-contrib"]
+	path = home/.config/i3blocks/i3blocks-contrib
+	url = https://github.com/vivien/i3blocks-contrib
