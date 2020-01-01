@@ -1,0 +1,6 @@
+- shell:
+    - [/bin/sh etc/init/zsh.sh]
+    - [rm -rf ~/.zprezto/runcoms]
+
+- link:
+    ~/.zprezto/runcoms: home/.zprezto/runcoms

@@ -15,4 +15,4 @@ echo "$DOTFILES_LOGO"
 
 git clone ${REPO_URL}
 
-cd dotfiles && ./install base
+cd dotfiles && ./install base zsh
