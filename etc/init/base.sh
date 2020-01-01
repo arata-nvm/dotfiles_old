@@ -6,7 +6,7 @@ log_info "Installing base"
 
 sudo pacman --noconfirm -Rs palemoon-bin vlc
 
-sudo pacman --noconfirm -S bat fcitx-im fcitx-mozc
+sudo pacman --noconfirm -S bat fcitx-im fcitx-mozc i3blocks
 
 yay -S ci ttf-cica
 
