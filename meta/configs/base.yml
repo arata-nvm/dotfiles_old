@@ -3,6 +3,7 @@
 
 - link:
   ~/.xprofile: home/.xprofile
+  ~/.Xresources: home/.Xresources
   ~/.config/fcitx/config: home/.config/fcitx/config
   ~/.config/fcitx/profile: home/.config/fcitx/profile
   ~/.config/fcitx/addon: home/.config/fcitx/addon
