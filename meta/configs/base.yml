@@ -1,8 +1,8 @@
 - shell:
     - [/bin/sh etc/init/base.sh]
-    - [rm -f .i3/config]
-    - [rm -f .Xresources]
-    - [rm -rf .config/nitrogen]
+    - [rm -f ~/.i3/config]
+    - [rm -f ~/.Xresources]
+    - [rm -rf ~/.config/nitrogen]
 
 - link:
     ~/.xprofile: home/.xprofile
