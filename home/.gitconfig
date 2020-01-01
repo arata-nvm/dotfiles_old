@@ -1,0 +1,20 @@
+[core]
+	editor = vim
+
+[user]
+	name = arata
+	email = arata04962@gmail.com
+	signingKey = 1CF837AE883318B11F08A2498082F1F5080E4748
+
+[push]
+	default = current
+
+[gpg]
+	program = gpg
+
+[commit]
+	gpgsign = true
+
+[tag]
+	forceSignAnnotated = true
+
