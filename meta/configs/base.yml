@@ -8,3 +8,5 @@
   ~/.config/fcitx/profile: home/.config/fcitx/profile
   ~/.config/fcitx/addon: home/.config/fcitx/addon
   ~/.config/fcitx/conf: home/.config/fcitx/conf
+  ~/.config/nitrogen: home/.config/nitrogen
+  ~/Pictures/wallpapers: assets/wallpapers
