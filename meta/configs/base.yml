@@ -1,8 +1,11 @@
 - shell:
     - [/bin/sh etc/init/base.sh]
-    - [rm -f ~/.i3/config]
+    - [rm -f ~/.xprofile]
     - [rm -f ~/.Xresources]
+    - [rm -f ~/.i3/config]
+    - [rm -rf ~/.config/i3blocks]
     - [rm -rf ~/.config/nitrogen]
+    - [rm -rf ~/.config/fcitx]
 
 - link:
     ~/.xprofile: home/.xprofile
@@ -14,4 +17,3 @@
     ~/.config/fcitx/addon: home/.config/fcitx/addon
     ~/.config/fcitx/conf: home/.config/fcitx/conf
     ~/.config/nitrogen: home/.config/nitrogen
-    ~/Pictures/wallpapers: assets/wallpapers

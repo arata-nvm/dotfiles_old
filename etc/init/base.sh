@@ -11,5 +11,6 @@ sudo pacman --noconfirm -S bat fcitx-im fcitx-mozc i3blocks
 yay -S ttf-cica
 
 sudo cp -pR assets/fonts/* /usr/share/fonts
+sudo cp -pR assets/wallpapers/* /usr/share/backgrounds
 
 log_success "Installed base"
