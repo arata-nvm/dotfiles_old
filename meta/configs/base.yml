@@ -1,9 +1,11 @@
 - shell:
-    - [/bin/sh etc/init/base.sh]
+    - [/bin/sh ../../etc/init/base.sh]
 
 - link:
     ~/.xprofile: home/.xprofile
     ~/.Xresources: home/.Xresources
+    ~/.i3/config: home/.i3/config
+    ~/.config/i3blocks: home/.config/i3blocks
     ~/.config/fcitx/config: home/.config/fcitx/config
     ~/.config/fcitx/profile: home/.config/fcitx/profile
     ~/.config/fcitx/addon: home/.config/fcitx/addon
