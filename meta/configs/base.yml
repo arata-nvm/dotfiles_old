@@ -1,12 +1,12 @@
 - shell:
-  - [/bin/sh etc/init/base.sh]
+    - [/bin/sh etc/init/base.sh]
 
 - link:
-  ~/.xprofile: home/.xprofile
-  ~/.Xresources: home/.Xresources
-  ~/.config/fcitx/config: home/.config/fcitx/config
-  ~/.config/fcitx/profile: home/.config/fcitx/profile
-  ~/.config/fcitx/addon: home/.config/fcitx/addon
-  ~/.config/fcitx/conf: home/.config/fcitx/conf
-  ~/.config/nitrogen: home/.config/nitrogen
-  ~/Pictures/wallpapers: assets/wallpapers
+    ~/.xprofile: home/.xprofile
+    ~/.Xresources: home/.Xresources
+    ~/.config/fcitx/config: home/.config/fcitx/config
+    ~/.config/fcitx/profile: home/.config/fcitx/profile
+    ~/.config/fcitx/addon: home/.config/fcitx/addon
+    ~/.config/fcitx/conf: home/.config/fcitx/conf
+    ~/.config/nitrogen: home/.config/nitrogen
+    ~/Pictures/wallpapers: assets/wallpapers
