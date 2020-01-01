@@ -2,6 +2,7 @@
     - [/bin/sh etc/init/base.sh]
     - [rm -f ~/.xprofile]
     - [rm -f ~/.Xresources]
+    - [rm -f ~/.gitconfig]
     - [rm -f ~/.i3/config]
     - [rm -rf ~/.config/i3blocks]
     - [rm -rf ~/.config/fcitx]
@@ -15,6 +16,7 @@
 - link:
     ~/.xprofile: home/.xprofile
     ~/.Xresources: home/.Xresources
+    ~/.gitconfig: home/.gitconfig
     ~/.i3/config: home/.i3/config
     ~/.config/i3blocks: home/.config/i3blocks
     ~/.config/fcitx/config: home/.config/fcitx/config
