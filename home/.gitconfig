@@ -18,3 +18,5 @@
 [tag]
 	forceSignAnnotated = true
 
+[ghq]
+	root = /home/user01/src
