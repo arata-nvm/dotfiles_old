@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	ignorecase = false
 
 [user]
 	name = arata
@@ -21,3 +22,7 @@
 
 [ghq]
 	root = /home/user01/src
+[color]
+	ui = true
+[alias]
+	graph = log --pretty=format:'%Cgreen[%cd] %Cblue%h %Cred<%cn> %Creset%s' --date=short  --decorate --graph --branches --tags --remotes
