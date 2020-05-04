@@ -33,7 +33,13 @@ label=B:
 interval=30
 
 [time]
-command=date '+%a, %b %d, %Y at %I:%M%p'
+label=JST:
+command=date '+%a, %b %d, %Y at %I:%M:%S%p'
+interval=1
+
+[time]
+label=UTC:
+command=date '+%a, %b %d, %Y at %I:%M%p' --universal
 interval=5
 
 [keyindicator]
