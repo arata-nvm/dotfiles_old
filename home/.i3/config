@@ -14,8 +14,8 @@
 
 set $mod Mod4
 
-new_window pixel 1
-new_float normal
+new_window none
+new_float none
 
 hide_edge_borders none
 
@@ -47,12 +47,16 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 ################################################################################################
 
+bindsym $mod+F1 exec "amixer -q -D pulse sset Master toggle; notify-send 'Toggle mute'"
+
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec vivaldi
+bindsym $mod+F2 exec firefox-developer-edition
+bindsym $mod+F11 exec firefox-developer-edition -p "CTF"
+bindsym $mod+F12 exec firefox-developer-edition -p "AtCoder"
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
-bindsym $mod+F5 exec terminal -e 'mocp'
+##bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b --dbus
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
@@ -61,7 +65,6 @@ bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
-
 # focus_follows_mouse no
 
 # change focus
@@ -261,7 +264,7 @@ mode "resize" {
 
 # Lock screen
 #bindsym $mod+9 exec --no-startup-id blurlock
-bindsym $mod+9 exec --no-startup-id mantablockscreen
+bindsym $mod+9 exec --no-startup-id mantablockscreen -cc
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -275,7 +278,7 @@ exec --no-startup-id clipit
 # exec_always --no-startup-id sbxkb
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker mantablockscreen
+exec --no-startup-id xautolock -time 10 -locker mantablockscreen -cc
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
@@ -344,12 +347,12 @@ bar {
 #                      border  backgr. text
 #        focused_workspace  #F9FAF9 #16a085 #292F34
 # focused_workspace  #222D31 #16a085 #292F34
-  focused_workspace #e39866 #1e1e20 #e39866 #e39866 #e39866
+  focused_workspace #001e1e20 #001e1e20 #e39866 #e39866 #e39866
 #        active_workspace   #595B5B #353836 #FDF6E3
 #	active_workspace   #222D31 #353836 #FDF6E3
-  active_workspace #e39866 #1e1e20 #e39866 #e39866 #e39866
+  active_workspace #001e1e20 #001e1e20 #e39866 #e39866 #e39866
 #        inactive_workspace #595B5B #222D31 #EEE8D5
-	inactive_workspace #222D31 #222D31 #EEE8D5
+	inactive_workspace #00222D31 #00222D31 #EEE8D5
         binding_mode       #16a085 #2C2C2C #F9FAF9
         urgent_workspace   #16a085 #FDF6E3 #E5201D
     }
