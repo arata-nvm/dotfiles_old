@@ -1,17 +1,13 @@
 
+# ===Templates===
+# build   : Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+# ci      : Changes to our CI configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
+# docs    : Documentation only changes
+# feat    : A new feature
+# fix     : A bug fix
+# perf    : A code change that improves performance
+# refactor: A code change that neither fixes a bug nor adds a feature
+# style   : Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+# test    : Adding missing tests or correcting existing tests
 
-# ==== Emojis ====
-# ✏️  :pencil2: Writing docs
-# 🐛  :bug: Fix bugs
-# 👍  :+1: Feature improvements
-# ✨  :sparkles: Additional partial feature
-# 🎉  :tada: Grand major features added to celebrate
-# ♻️   :recycle :Refactoring
-# 🚿  :shower: Removal of obsolete functions or features.
-# 💚  :green_heart: Modification and improvement of testing and CI
-# 👕  :shirt: Fixing of errors found by Lint.
-# 🚀  :rocket: Performance improvement
-# 🆙  :up: Updates, such as dependent package
-# 🔒  :lock: Limit of the range of new features
-# 👮  :cop: Security-related improvements
 
