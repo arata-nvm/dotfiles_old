@@ -6,7 +6,7 @@ log_info "Installing base"
 
 sudo pacman --noconfirm -Rs palemoon-bin vlc
 
-sudo pacman --noconfirm -S bat fcitx-im fcitx-mozc i3blocks mpv rofi skippy-xd redshift firefox-developer-edition
+sudo pacman --noconfirm -S bat fcitx-im fcitx-mozc i3blocks mpv rofi skippy-xd redshift firefox-developer-edition zathura zathura-pdf-mupdf
 
 yay -S ttf-cica ruby-fusuma
 

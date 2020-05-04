@@ -14,6 +14,7 @@
     - [rm -rf ~/.config/skippy-xd]
     - [rm -rf ~/.config/rofi]
     - [rm -rf ~/.config/fish]
+    - [rm -rf ~/.config/zathura]
 
 - link:
     ~/.xprofile: home/.xprofile
@@ -35,4 +36,5 @@
     ~/.config/fish/config.fish: home/.config/fish/config.fish
     ~/.config/fish/fish_variables: home/.config/fish/fish_variables
     ~/.config/fish/functions/fish_prompt.fish: home/.config/fish/functions/fish_prompt.fish
+    ~/.config/zathura/zathurarc: home/.config/zathura/zathurarc
 
