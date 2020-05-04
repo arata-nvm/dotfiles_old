@@ -13,6 +13,7 @@
     - [rm -rf ~/.config/termite]
     - [rm -rf ~/.config/skippy-xd]
     - [rm -rf ~/.config/rofi]
+    - [rm -rf ~/.config/fish]
 
 - link:
     ~/.xprofile: home/.xprofile
@@ -31,4 +32,7 @@
     ~/.config/termite/config: home/.config/termite/config
     ~/.config/skippy-xd/skippy-xd.rc: home/.config/skippy-xd/skippy-xd.rc
     ~/.config/rofi/config: home/.config/rofi/config
+    ~/.config/fish/config.fish: home/.config/fish/config.fish
+    ~/.config/fish/fish_variables: home/.config/fish/fish_variables
+    ~/.config/fish/functions/fish_prompt.fish: home/.config/fish/functions/fish_prompt.fish
 
