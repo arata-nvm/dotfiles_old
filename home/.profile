@@ -5,4 +5,5 @@ export BROWSER=/usr/bin/firefox-developer-edition
 export LANG="en_US.UTF-8"
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on'
 
+export PATH="$PATH:/home/user01/go/bin"
 fusuma &
