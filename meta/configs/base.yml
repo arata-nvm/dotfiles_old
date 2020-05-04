@@ -3,6 +3,7 @@
     - [rm -f ~/.xprofile]
     - [rm -f ~/.Xresources]
     - [rm -f ~/.gitconfig]
+    - [rm -f ~/.gitignore_global]
     - [rm -f ~/.i3/config]
     - [rm -rf ~/.config/i3blocks]
     - [rm -rf ~/.config/fcitx]
@@ -17,6 +18,7 @@
     ~/.xprofile: home/.xprofile
     ~/.Xresources: home/.Xresources
     ~/.gitconfig: home/.gitconfig
+    ~/.gitignore_global: home/.gitignore_global
     ~/.i3/config: home/.i3/config
     ~/.config/i3blocks: home/.config/i3blocks
     ~/.config/fcitx/config: home/.config/fcitx/config
