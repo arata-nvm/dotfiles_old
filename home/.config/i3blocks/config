@@ -2,10 +2,6 @@ command=~/.config/i3blocks/i3blocks-contrib/$BLOCK_NAME/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
-[arch-update]
-interval=once
-markup=pango
-
 [disk]
 label=/:
 interval=30
