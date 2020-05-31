@@ -1,5 +1,5 @@
 [options]
-font = Cica 14
+font = Cica 12
 allow_bold = true
 clickable_url = true
 
