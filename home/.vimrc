@@ -14,14 +14,14 @@ call plug#begin()
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'preservim/nerdtree'
 Plug 'cocopon/iceberg.vim'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'preservim/nerdtree', { 'on': 'NERDTree' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'airblade/vim-gitgutter'
-Plug 'tomtom/tcomment_vim'
+Plug 'tomtom/tcomment_vim', { 'on': 'TComment' } 
 Plug 'luochen1990/rainbow'
 Plug 'ryanoasis/vim-devicons'
 Plug 'simeji/winresizer'
@@ -94,7 +94,7 @@ if has('persistent_undo')
 endif
 
 " コマンド入力のタイムアウトを早める
-set timeout timeoutlen=50
+set timeout timeoutlen=200
 
 " --- 見た目 ---
 
