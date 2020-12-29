@@ -50,10 +50,10 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 bindsym $mod+F1 exec "amixer -q -D pulse sset Master toggle; notify-send 'Toggle mute'"
 
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec firefox-developer-edition
+bindsym $mod+F2 exec vivaldi-stable
 bindsym $mod+F11 exec firefox-developer-edition -p "CTF"
 bindsym $mod+F12 exec firefox-developer-edition -p "AtCoder"
-bindsym $mod+F3 exec pcmanfm
+bindsym $mod+F3 exec nautilus
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
 ##bindsym $mod+F5 exec terminal -e 'mocp'
@@ -283,7 +283,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
 exec --no-startup-id fcitx
-exec --no-startup-id slack
+# exec --no-startup-id slack
 exec --no-startup-id redshift-gtk
 exec --no-startup-id fusuma
 

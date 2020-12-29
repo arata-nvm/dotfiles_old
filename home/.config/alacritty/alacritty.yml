@@ -1,3 +1,6 @@
+window:
+  decorations: none
+
 font:
   normal:
     family: Cica
@@ -35,7 +38,7 @@ colors:
     cyan: '0xc0ca8e'
     white: '0xc0ca8e'
 
-background_opacity: 0.8
+    #background_opacity: 0.8
 
 shell:
   program: /bin/bash

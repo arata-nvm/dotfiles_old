@@ -1,6 +1,7 @@
 [core]
 	editor = vim
 	ignorecase = false
+  pager = delta
 
 [user]
 	name = arata
@@ -28,3 +29,8 @@
 
 [alias]
 	graph = log --pretty=format:'%Cgreen[%cd] %Cblue%h %Cred<%cn> %Creset%s' --date=short  --decorate --graph --branches --tags --remotes
+  c = commit
+  s = status
+
+[pull]
+	rebase = false

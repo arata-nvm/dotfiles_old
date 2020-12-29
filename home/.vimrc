@@ -140,8 +140,8 @@ syntax enable
 " ins-completion-menu 関連のメッセージを表示しない
 set shortmess+=c
 
-" 目印行を行番号カラムに表示する
-set signcolumn=number
+" 補完ウィンドウを設定
+set completeopt=menuone,noinsert
 
 
 " --------------------
@@ -182,6 +182,11 @@ nnoremap sl <C-w>l
 nnoremap ss :<C-u>sp<CR><C-w>j
 nnoremap sv :<C-u>vs<CR><C-w>
 
+tnoremap sh <C-w>h
+tnoremap sj <C-w>j
+tnoremap sk <C-w>k
+tnoremap sl <C-w>l
+
 " 十字キー死すべし
 nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
@@ -199,6 +204,7 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 " :w!! でroot権限でファイルを書き込む
 cnoremap w!! w !sudo tee > /dev/null %<CR> :e!<CR>
 
+inoremap <expr><CR> pumvisible() ? "<C-y>" : "<CR>"
 
 " --------------------
 "  plugin settings
@@ -229,8 +235,8 @@ let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 " ,と.でバッファを移動する
-nnoremap <silent> , :bprev<CR>
-nnoremap <silent> . :bnext<CR>
+nnoremap <Left> :bprev<CR>
+nnoremap <Right> :bnext<CR>
 
 " --- vim-indent-guides ---
 
